@@ -1,0 +1,30 @@
+site_tests_file.py   INFO     [2017-02-13 00:52:49,760] ==============================
+site_tests_file.py   INFO     [2017-02-13 00:52:49,760] START test_login_correct
+site_tests_file.py   INFO     [2017-02-13 00:52:49,760] Get user with credentials:username: nastya_test, email:nastyakuz@front.ru, password:qwer1234
+applic.py            INFO     [2017-02-13 00:52:49,762] go_to_home_page Base URL: http://stackoverflow.com/
+applic.py            INFO     [2017-02-13 00:52:51,986] login_page_opened
+applic.py            INFO     [2017-02-13 00:52:52,042] open_login_page
+applic.py            INFO     [2017-02-13 00:52:53,088] login_page_opened
+applic.py            INFO     [2017-02-13 00:52:53,135] do_login
+applic.py            INFO     [2017-02-13 00:52:53,414] user_is_loggedin USER:username: nastya_test, email:nastyakuz@front.ru, password:qwer1234
+applic.py            INFO     [2017-02-13 00:52:53,414] is_logged_in
+applic.py            INFO     [2017-02-13 00:52:55,517] do_logout
+applic.py            INFO     [2017-02-13 00:52:57,658] login_page_opened
+site_tests_file.py   INFO     [2017-02-13 00:53:02,681] ==============================
+site_tests_file.py   INFO     [2017-02-13 00:53:02,681] START test_login_invalid_passw
+site_tests_file.py   INFO     [2017-02-13 00:53:02,681] Get user with credentials:username: , email:nastyakuz@front.ru, password:pass555128
+applic.py            INFO     [2017-02-13 00:53:02,683] go_to_home_page Base URL: http://stackoverflow.com/
+applic.py            INFO     [2017-02-13 00:53:03,355] login_page_opened
+applic.py            INFO     [2017-02-13 00:53:03,394] open_login_page
+applic.py            INFO     [2017-02-13 00:53:03,872] login_page_opened
+applic.py            INFO     [2017-02-13 00:53:03,907] do_login
+applic.py            INFO     [2017-02-13 00:53:04,217] login_page_opened
+site_tests_file.py   INFO     [2017-02-13 00:53:10,089] ==============================
+site_tests_file.py   INFO     [2017-02-13 00:53:10,089] START test_login_invalid_login
+site_tests_file.py   INFO     [2017-02-13 00:53:10,089] Get user with credentials:username: nastya_test, email:n172903abc@front.ru, password:qwer1234
+applic.py            INFO     [2017-02-13 00:53:10,089] go_to_home_page Base URL: http://stackoverflow.com/
+applic.py            INFO     [2017-02-13 00:53:10,756] login_page_opened
+applic.py            INFO     [2017-02-13 00:53:10,796] open_login_page
+applic.py            INFO     [2017-02-13 00:53:10,871] login_page_opened
+applic.py            INFO     [2017-02-13 00:53:11,319] do_login
+applic.py            INFO     [2017-02-13 00:53:11,552] login_page_opened
